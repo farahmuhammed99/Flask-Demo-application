@@ -24,7 +24,7 @@ jobs:
               run:
                 docker build -t farahmo99/demo_flask_app
                 echo ${{ secrets.NEW_SECRET}} | docker login -u farahmo99 --password-stdin 
-                docker push farahmuhammed99/Flask-Demo-application
+                docker push farahmo99/demo_flask_app
 
 
         
